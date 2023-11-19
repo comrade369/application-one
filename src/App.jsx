@@ -1,6 +1,13 @@
+import MultipleComponents from "./components/MultipleComponents";
+
 function App() {
     return (
-        <h1>Welcome to React</h1>
+        <div>
+            <h1>Hello, world</h1>
+            <p>Welcome to React</p>
+            <p>A component placed here:</p>
+            <MultipleComponents />
+        </div>
     );
 }
 
