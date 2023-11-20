@@ -1,0 +1,14 @@
+Topics:
+1. Components -- true
+2. JSX -- true
+3. JSX Rules -- true
+4. Multiple Components -- true
+5. React Fragments -- true
+6. Expressions in JSX -- true
+7. Lists -- true
+8. Props -- true
+9. Conditional Rendering -- true
+10. Sytles in React -- true
+11. Events -- true
+
+
