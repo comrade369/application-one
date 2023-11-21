@@ -5,6 +5,7 @@ import PropsComponent from "./PropsComponent";
 import ConditionalRendering from "./ConditionalRendering";
 import StylesInReact from "./SytlesInReact";
 import EventsComponent from "./Events";
+import UseStateHook from "./UseStateHook";
 
 
 function MultipleComponents() {
@@ -32,6 +33,9 @@ function MultipleComponents() {
 
             <h1>Events Component placed here.</h1>
             <EventsComponent />
+
+            <h1>UseStateHook Component placed here.</h1>
+            <UseStateHook />
 
         </div>
     );

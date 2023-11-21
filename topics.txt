@@ -10,5 +10,6 @@ Topics:
 9. Conditional Rendering -- true
 10. Sytles in React -- true
 11. Events -- true
+12. State -- true
 
 
