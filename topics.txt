@@ -14,5 +14,7 @@ Topics:
 13. Forms -- true
 14. useEffect Hook -- true
 15. Prop Drilling -- true
-
-
+16. Context API -- true
+17. useContext Hook -- true
+18. useReducer Hook -- true
+19. useRef Hook -- true

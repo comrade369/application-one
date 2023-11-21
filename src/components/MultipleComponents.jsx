@@ -9,7 +9,10 @@ import UseStateHook from "./UseStateHook";
 import Forms from "./Forms";
 import UseEffectHook from "./UseEffectHook";
 import PropDrilling1 from "./PropDrilling1";
-
+import ContextAPIProvider from "./ContextAPIProvider";
+import UseContextHookProvider from "./UseContextHookProvider";
+import UseReducerHook from "./UseReducerHook";
+import UseRefHook from "./UseRefHook";
 
 function MultipleComponents() {
     // Takes multiple components inside.
@@ -48,6 +51,18 @@ function MultipleComponents() {
 
             <h1>PopDrilling1 Component placed here with a prop.</h1>
             <PropDrilling1 name="Prince Vegeta" />
+
+            <h1>ContextAPIProvider Component placed here.</h1>
+            <ContextAPIProvider />
+
+            <h1>UseContextProvider Component placed here.</h1>
+            <UseContextHookProvider />
+
+            <h1>UseReducerHook Component placed here.</h1>
+            <UseReducerHook />
+
+            <h1>UseRefHook Component placed here.</h1>
+            <UseRefHook />
 
 
         </div>
