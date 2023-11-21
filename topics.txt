@@ -10,6 +10,9 @@ Topics:
 9. Conditional Rendering -- true
 10. Sytles in React -- true
 11. Events -- true
-12. State -- true
+12. useState Hook -- true
+13. Forms -- true
+14. useEffect Hook -- true
+15. Prop Drilling -- true
 
 

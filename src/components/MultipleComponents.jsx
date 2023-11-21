@@ -6,6 +6,9 @@ import ConditionalRendering from "./ConditionalRendering";
 import StylesInReact from "./SytlesInReact";
 import EventsComponent from "./Events";
 import UseStateHook from "./UseStateHook";
+import Forms from "./Forms";
+import UseEffectHook from "./UseEffectHook";
+import PropDrilling1 from "./PropDrilling1";
 
 
 function MultipleComponents() {
@@ -36,6 +39,16 @@ function MultipleComponents() {
 
             <h1>UseStateHook Component placed here.</h1>
             <UseStateHook />
+
+            <h1>Forms Component placed here.</h1>
+            <Forms />
+
+            <h1>UseEffectHook Component placed here.</h1>
+            <UseEffectHook />
+
+            <h1>PopDrilling1 Component placed here with a prop.</h1>
+            <PropDrilling1 name="Prince Vegeta" />
+
 
         </div>
     );
