@@ -13,6 +13,7 @@ import ContextAPIProvider from "./ContextAPIProvider";
 import UseContextHookProvider from "./UseContextHookProvider";
 import UseReducerHook from "./UseReducerHook";
 import UseRefHook from "./UseRefHook";
+import CustomHook from "./CustomHook";
 
 function MultipleComponents() {
     // Takes multiple components inside.
@@ -63,6 +64,9 @@ function MultipleComponents() {
 
             <h1>UseRefHook Component placed here.</h1>
             <UseRefHook />
+
+            <h1>CustomHook Component placed here.</h1>
+            <CustomHook />
 
 
         </div>
