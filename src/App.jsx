@@ -1,12 +1,9 @@
-import MultipleComponents from "./components/MultipleComponents";
+import CounterApp from "./counterProject/CounterApp";
 
 function App() {
     return (
         <div>
-            <h1>Hello, world</h1>
-            <p>Welcome to React</p>
-            <p>A component placed here:</p>
-            <MultipleComponents />
+            <CounterApp />
         </div>
     );
 }
