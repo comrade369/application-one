@@ -1,9 +1,10 @@
-import CounterApp from "./counterProject/CounterApp";
+import TodoApp from "./todoProject/TodoApp";
+
 
 function App() {
     return (
         <div>
-            <CounterApp />
+            <TodoApp />
         </div>
     );
 }
